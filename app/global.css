@@ -16,9 +16,13 @@ body {
 
 header {
     display: flex;
+    position: fixed;
     padding: 18px 170px;
     background-color: white;
     align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
 }
 
 header .site-title {
@@ -74,6 +78,7 @@ header .header-action .btn:hover {
 
 .slides {
     height: 600px;
+    margin-top: 60px;
 }
 
 .slides .slide-item {
@@ -130,8 +135,13 @@ header .header-action .btn:hover {
 }
 
 .full-height {
-    height: auto;
+    transition: all 0.3s linear;
+    height: 310px;
+}
 
+.half-height {
+    transition: all 0.3s linear;
+    height: 45px;
 }
 
 @media (max-width:500px) {
@@ -154,6 +164,7 @@ header .header-action .btn:hover {
     }
 
     header ul li {
+        margin-bottom: 10px;
         /* background-color: green; */
     }
 

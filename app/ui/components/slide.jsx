@@ -7,7 +7,8 @@ export default function Slide() {
         slideAnchor="Meet Our Chef"
         slideClass="item-one"
       />
-      <SlideItem
+
+      {/* <SlideItem
         slideTitle="Your Perfect Break-feast"
         slideDesc="The Best Dinning Quality can be here too"
         slideAnchor="Discover Menu"
@@ -18,7 +19,7 @@ export default function Slide() {
         slideDesc="Enjoy your special menu every Sunday and Friday"
         slideAnchor="Reservation"
         slideClass="item-three"
-      />
+      /> */}
     </div>
   );
 }
